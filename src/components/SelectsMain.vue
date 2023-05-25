@@ -29,7 +29,8 @@ let choosedMovingOption = ref({})
 <style scoped lang="scss">
 .selects-main {
   display: flex;
-  gap: 0 80px;
+  flex-wrap: wrap;
+  gap: 40px 80px;
   margin-top: 4rem;
 }
 </style>
